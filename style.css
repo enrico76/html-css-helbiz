@@ -1,4 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("image/hero.jpg");
+  height: 300px;
+}
+nav {
+
+}
+section {
+  background: green;
+  height: 200px;
+}
+.rowtwocol {
+  height: 300px;
+  background-color: grey;
+}
+.iphone {
+  background-image: url("image/oldman.jpg");
+  background-color: yellow;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.scooter {
+  background-image: url("image/scooter.jpg");
+  height: 300px;
 }
