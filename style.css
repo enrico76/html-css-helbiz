@@ -8,7 +8,25 @@ header {
   height: 300px;
 }
 nav {
+  /* height: 100px; */
+  position: relative;
+  width: 100%;
+  display: inline-block;
 
+}
+.menu {
+  margin-left: 550px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+li {
+  position: relative;
+  color: white;
+  display: inline-block;
 }
 section {
   background: green;
