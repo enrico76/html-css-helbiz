@@ -13,6 +13,7 @@ nav {
   width: 100%;
   display: inline-block;
 
+
 }
 .menu {
   margin-left: 550px;
@@ -20,8 +21,10 @@ nav {
 
 .logo {
   display: inline-block;
-  float: left;
   position: relative;
+  top: 20px;
+  left: 15%;
+
 }
 li {
   position: relative;
@@ -29,18 +32,69 @@ li {
   display: inline-block;
 }
 section {
-  background: green;
-  height: 200px;
+  /* background: green; */
+  /* height: 200px; */
 }
-.rowtwocol {
-  height: 300px;
-  background-color: grey;
+#first {
+  background-color: white;
 }
-.iphone {
+#second {
   background-image: url("image/oldman.jpg");
-  background-color: yellow;
+  background-color: white;
   background-repeat: no-repeat;
   height: 800px;
+  margin-bottom: 300px;
+  text-align: center;
+  }
+.centralbox {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+  text-align: center;
+}
+.mezzi {
+  width: 30%;
+  margin-left: 10%;
+}
+/* .row {
+  height: 300px;
+  background-color: #ffffff; */
+}
+.row::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.centralbox::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+#second::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.sx {
+  margin-top: 800px;
+  margin-left: 15%;
+  text-align: left;
+}
+#iphone {
+  width: 30%;
+  float: left;
+  margin-top: 400px;
+}
+.dx {
+  margin-top: 800px;
 }
 .scooter {
   background-image: url("image/scooter.jpg");
