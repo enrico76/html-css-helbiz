@@ -98,5 +98,13 @@ a {
 }
 .scooter {
   background-image: url("image/scooter.jpg");
-  height: 300px;
+  background-size: cover;
+  width: 85%;
+  margin: auto;
+  height: 600px;
+}
+.thirdcol {
+  margin-left: 60%;
+  margin-top: 300px;
+  color: white;
 }
